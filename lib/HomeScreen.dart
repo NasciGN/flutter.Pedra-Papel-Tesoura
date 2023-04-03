@@ -138,7 +138,9 @@ class _homeScreenState extends State<homeScreen> {
                 )
               ],
             ),
-            const SizedBox(height: 20,),
+            const SizedBox(
+              height: 20,
+            ),
             Text('Você escolheu $userChoice!'),
             const SizedBox(
               height: 40,
@@ -151,14 +153,14 @@ class _homeScreenState extends State<homeScreen> {
               width: 100,
               child: Image.asset(escolhaMaquina),
             ),
-            const SizedBox(height: 20,),
+            const SizedBox(
+              height: 20,
+            ),
             Text('A máquina escolheu $cpuChoice!'),
             const SizedBox(
               height: 40,
             ),
             Text('Resultado: $resultado'),
-
-
           ],
         ),
       ),
