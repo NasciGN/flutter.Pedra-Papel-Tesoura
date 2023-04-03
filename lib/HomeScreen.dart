@@ -13,7 +13,7 @@ class _homeScreenState extends State<homeScreen> {
   var cpuChoice = '';
   var userChoice = '';
   var escolhaMaquina = '';
-  var resultado = '';
+  var resultado = 'Faça uma jogada';
 
   void validaJogada(jogadaCPU, jogadaUser) {
     switch (jogadaUser) {
@@ -44,10 +44,7 @@ class _homeScreenState extends State<homeScreen> {
           resultado = 'Você ganhou, parabéns!';
         }
         break;
-      default:
-        resultado = 'Faça uma jogada';
     }
-    setState(() {});
   }
 
   void jogaPPT() {
